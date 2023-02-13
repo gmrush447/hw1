@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+	background-color: #0F0E10;
+	overflow: hidden;
+}
+
+#aboutme {
+	font-family: 'Sen';
+	font-size: 48px;
+	color: #C9C9C9;
+
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-top: -70px;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+}
+
+#cmsc {
+	font-family: 'Sen';
+	font-size: 32px;
+	color: #2895AD;
+	text-align: center;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: 10px;
+	transform: translate(-50%, -50%);
+	white-space: normal;
+}
+
+#logo {
+	font-family: 'Sen';
+	font-size: 18px;
+	color: #2895AD;
+	position: fixed;
+	left: 2%;
+	top: 0px;
+}
+
+#spacerect{
+	fill: #C9C9C9;
+
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-top: -25px;
+	transform: translate(-50%, -50%);
+}
+
+#linkedin{
+	font-family: 'Sen';
+	font-size: 18px;
+	color: #2895AD;
+
+	position: fixed;
+	bottom: -1%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#topbar{
+	position: fixed;
+	right: 2%;
+	z-index: 1;
+	top: 0px;
+
+	font-family: 'Sen';
+	font-size: 18px;
+	color: #2895AD;
+	text-decoration: none;
+}
+
+#particles-js{
+	z-index: -1;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
